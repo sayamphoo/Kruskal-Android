@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="85dp"
+    android:layout_margin="7dp"
+    android:background="@drawable/button_choice_quiz"
+    android:gravity="center"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/textChoice"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="60"
+        android:textColor="#9623F1"
+        android:textFontWeight="700"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

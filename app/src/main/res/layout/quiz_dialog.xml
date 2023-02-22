@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/back_minimum_quiz_shape"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#E73636"
+        android:text="CONGRATULATION"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#2C2C2C"
+        android:text="Your score"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#2C2C2C"
+        android:text="3051"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/seeAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="see answer"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/seeMinimum"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/minimum_spanning_tree_1"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/playAgain"
+            android:layout_width="120dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/dialog_rad_again_shape"
+            android:text="Play again"/>
+
+        <TextView
+            android:id="@+id/blackHome"
+            android:layout_width="120dp"
+            android:gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:background="@drawable/dialog_rad_black_shape"
+            android:text="Back Home"/>
+
+    </LinearLayout>
+
+</LinearLayout>
